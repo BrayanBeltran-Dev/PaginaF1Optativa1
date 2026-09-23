@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Parrilla // F1 Data</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="tag">TEMPORADA 2026 // FICHAS DE PILOTOS</div>
+  <h1>Datos en vivo de la parrilla</h1>
+  <p>Info básica, autos y victorias de los 22 pilotos de Fórmula 1, más un minijuego para probar tu reacción en la salida.</p>
+</header>
+
+<section id="pilotos">
+  <h2>Pilotos</h2>
+  <div class="grid" id="driverGrid"></div>
+</section>
+
+<section id="juego">
+  <h2>Reacciona a las luces</h2>
+  <div class="game">
+    <div class="lights" id="lights"></div>
+    <div class="status">
+      <div class="big" id="statusBig">Toca para empezar</div>
+      <div class="small" id="statusSmall">5 luces se encienden, una a una. Cuando se apaguen todas, ¡arranca!</div>
+    </div>
+    <div class="track" id="track"><span>TOCA AQUÍ PARA COMENZAR</span></div>
+    <div class="best" id="best"></div>
+  </div>
+</section>
+
+<footer>Datos de referencia sobre la temporada 2026 de F1 · Fuente: formula1.com</footer>
+
+<script src="drivers.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
